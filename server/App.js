@@ -15,19 +15,19 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 //db
-mongoose
-  .connect(process.env.MONGO_URI, {})
-  .then(() => console.log("Database is connected"))
-  .catch((err) => console.log("Database connection Error", err));
-//midddleware
-app.use(express.json());
-app.use(morgan("dev"));
-// CORS configuration
-app.use(cors());
+// mongoose
+//   .connect(process.env.MONGO_URI, {})
+//   .then(() => console.log("Database is connected"))
+//   .catch((err) => console.log("Database connection Error", err));
+// //midddleware
+// app.use(express.json());
+// app.use(morgan("dev"));
+// // CORS configuration
+// app.use(cors());
 
-//routes
-app.use("/user", userRoutes);
-app.use("/contact-us", feedbackRoute);
+// //routes
+// app.use("/user", userRoutes);
+// app.use("/contact-us", feedbackRoute);
 app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 //port
 const port = 3000;
