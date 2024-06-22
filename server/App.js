@@ -33,9 +33,7 @@ app.use(express.static(path.join(__dirname, "dist")));
 const port = process.env.PORT || 8000;
 
 //listener
-const server = app.listen(port, () =>
-  console.log(`Server is running on port ${port}`)
-);
+app.listen(port, () => console.log(`Server is running on port ${port}`));
 
 app.get("/*", (req, res) => {
   //frontend\dist\index.html
