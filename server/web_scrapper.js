@@ -19,7 +19,7 @@ async function scraperJob() {
   finalData = [await dataInternsathi(), await dataVocalPanda()];
   if (
     fs.writeFileSync(
-      path.join(__dirname, "..", "frontend", "Public", "jobListings.json"),
+      path.join(__dirname, "..", "frontend", "dist", "jobListings.json"),
       JSON.stringify(finalData.flat(), null, 2),
       "utf-8",
       { flag: "wx" }
