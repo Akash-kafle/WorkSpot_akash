@@ -30,7 +30,7 @@ app.use(express.json());
 // app.use("/contact-us", feedbackRoute);
 app.use(express.static(path.join(__dirname, "dist")));
 //port
-const port = 3000;
+const port = process.env.PORT || 8000;
 
 //listener
 const server = app.listen(port, () =>
