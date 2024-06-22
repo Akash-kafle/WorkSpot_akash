@@ -28,7 +28,7 @@ app.use(express.json());
 // //routes
 // app.use("/user", userRoutes);
 // app.use("/contact-us", feedbackRoute);
-app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
+app.use(express.static(path.join(__dirname, "dist")));
 //port
 const port = 3000;
 
@@ -39,7 +39,7 @@ const server = app.listen(port, () =>
 
 app.get("/*", (req, res) => {
   //frontend\dist\index.html
-  const filePath = path.join(__dirname, "..", "frontend", "dist", "index.html");
+  const filePath = path.join(__dirname, "dist", "index.html");
   console.log(filePath);
 
   fs.readFile(filePath, function (err, data) {

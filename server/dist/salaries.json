@@ -1,0 +1,261 @@
+[
+  {
+    "id": 1,
+    "title": "Information Technology",
+    "salary": 37000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 2,
+    "title": "Graphic Design",
+    "salary": 24000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 3,
+    "title": "Sales",
+    "salary": 20000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 4,
+    "title": "Content Creator",
+    "salary": 18000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 5,
+    "title": "Administration",
+    "salary": 22000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 6,
+    "title": "Video Making Editing",
+    "salary": 45000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 7,
+    "title": "Facebook Marketing",
+    "salary": 48000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 8,
+    "title": "Digital Marketing",
+    "salary": 23000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 9,
+    "title": "Cloud Computing / DevOps",
+    "salary": 50000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 10,
+    "title": "UI/UX",
+    "salary": 49000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 11,
+    "title": "General Management",
+    "salary": 26000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 12,
+    "title": "Data Entry",
+    "salary": 38000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 13,
+    "title": "Interior Design",
+    "salary": 19000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 14,
+    "title": "Web Development",
+    "salary": 25000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 15,
+    "title": "Videography",
+    "salary": 33000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 16,
+    "title": "Software Testing / Quality Assurance",
+    "salary": 34000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 17,
+    "title": "Customer Service",
+    "salary": 23000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 18,
+    "title": "Mern",
+    "salary": 55000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 19,
+    "title": "Python",
+    "salary": 33000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 20,
+    "title": "Copywriting",
+    "salary": 28000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 21,
+    "title": "Python Django",
+    "salary": 22000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 22,
+    "title": "﻿Marketing",
+    "salary": 25000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 23,
+    "title": "Operations",
+    "salary": 18000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 24,
+    "title": "Client Servicing",
+    "salary": 33000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 25,
+    "title": "Automobile",
+    "salary": 13000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 26,
+    "title": "Front-End Development",
+    "salary": 90000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 27,
+    "title": "Creative Design",
+    "salary": 19000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 28,
+    "title": "Creative Writing",
+    "salary": 18000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 29,
+    "title": "Design",
+    "salary": 25000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 30,
+    "title": "Accounting",
+    "salary": 23000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 31,
+    "title": "Accounting/Finance",
+    "salary": 38000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 32,
+    "title": "IT & Telecommunication",
+    "salary": 48000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 33,
+    "title": "Marketing/Advertising",
+    "salary": 27000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 34,
+    "title": "Sales and Marketing",
+    "salary": 28000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 35,
+    "title": "Administrative/Public Service",
+    "salary": 27000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 36,
+    "title": "Designing/Graphics",
+    "salary": 33000,
+    "currency": "NPR",
+    "skills": []
+  },
+  {
+    "id": 37,
+    "title": "Others",
+    "salary": 23000,
+    "currency": "NPR",
+    "skills": []
+  }
+]

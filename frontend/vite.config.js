@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import { resolve } from 'path';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { resolve } from "path";
 
 const root = resolve(__dirname);
-const outDir = resolve(__dirname, 'dist');
-
+const outDir = resolve(__dirname, "..", "server", "dist");
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,14 +14,13 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: resolve(__dirname, "index.html"),
       },
     },
   },
   server: {
-
     proxy: {
-      '/user': 'http://localhost:3000/',
+      "/user": "http://localhost:3000/",
     },
   },
 });
